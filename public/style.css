@@ -9,16 +9,47 @@ body {
     background-color: #f4f4f4;
 }
 
+.background{
+    background-image: linear-gradient(rgb(59, 47, 47), rgb(60, 60, 105));
+    height:100vh;
+    width:100vw;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+
 .container {
-    background-color: #fff;
-    padding: 20px;
+    background-color: #e6dcdc;
+    padding: 10px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    height:60%;
+    width: 40%;
+    position: relative;
+}
+.heading{
+    color:#000000;
+    font-size: 5vh;
+    font-family: "roboto";
+    position: relative;
 }
 
-.input-container {
-    margin-bottom: 15px;
+.label-Text{
+    color:#000000;
+    font-size: 20px;
+    font-family: roboto;
+    position: relative;
+}
+
+.input-value{
+    height:5vh;
+    width:15vw;
+    position: relative;
+    position: relative;
 }
 
 button {
@@ -28,8 +59,23 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-top:5%;
+    position: relative;
 }
 
 button:hover {
     background-color: #0056b3;
 }
+
+.error-message{
+    color:red;
+    font-size: 17px;
+    font-family: roboto;
+}
+
+.result-message{
+    color:rgb(12, 112, 3);
+    font-size: 20px;
+    font-family: roboto;
+}
+
